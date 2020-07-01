@@ -1,23 +1,18 @@
-body {
-    box-sizing: border-box;
-}
-
-.header {
+header {
     display: flex;
     justify-content: center;
 }
 
 .article {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    width: 300px;
 }
 
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    min-width: 300px;
-    flex-grow: 1;
-    flex-shrink: 1;
 }
