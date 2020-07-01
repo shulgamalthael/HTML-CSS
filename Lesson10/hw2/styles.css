@@ -1,6 +1,5 @@
-* {
-    box-sizing: border-box;
-    width: 100hv;
+body {
+    width: 100%;
 }
 
 header {
@@ -9,6 +8,7 @@ header {
 }
 
 .article {
+    box-sizing: border-box;
     flex-basis: 300px;
     flex-grow: 1;
     flex-shrink: 0;
