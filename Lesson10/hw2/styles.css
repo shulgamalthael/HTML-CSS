@@ -2,16 +2,14 @@ body {
     width: 100%;
 }
 
-header {
-    display: flex;
-    justify-content: center;
+h1 {
+    text-align: center;
 }
 
 .article {
     box-sizing: border-box;
     flex-basis: 300px;
     flex-grow: 1;
-    flex-shrink: 1;
     margin: 8px;
     padding: 16px;
     background-color: bisque;
