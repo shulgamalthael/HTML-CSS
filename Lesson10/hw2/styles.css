@@ -1,0 +1,23 @@
+.wrapper {
+    box-sizing: border-box;
+    width: 100hv;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+}
+
+.article-list {
+    display: flex;
+    min-width: 300px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
