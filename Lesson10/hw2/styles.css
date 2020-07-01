@@ -1,6 +1,5 @@
-.wrapper {
+body {
     box-sizing: border-box;
-    width: 100hv;
 }
 
 .header {
@@ -12,12 +11,13 @@
     margin: 8px;
     padding: 16px;
     background-color: bisque;
+    width: 300px;
 }
 
-.article-list {
+.articles-list {
     display: flex;
-    min-width: 300px;
     flex-wrap: wrap;
+    min-width: 300px;
     flex-grow: 1;
     flex-shrink: 1;
 }
