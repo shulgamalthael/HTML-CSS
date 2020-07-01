@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+        <style>
+
+            .header {
+                background-color: darkturquoise;
+                height: 40px;
+            }
+
+            .nvigations {
+                height: 40px;
+            }
+
+            ul li {
+                float: left;
+                margin-left: 16px;
+                color: white;
+                line-height: 225%;
+                list-style-type: none;
+            }
+
+            .content {
+                background-color: beige;
+                height: 5000px;
+                position: static;
+            }
+
+            .head {
+                height: 200px;
+                width: 200px;
+                background-color: aquamarine;
+                position: fixed;
+                left: calc(100%/2 - 100px);
+                top: calc(100%/2 - 100px);
+            }
+
+            .ear {
+                height: 60px;
+                width: 40px;
+                background-color: brown;
+                position: relative;
+            }
+
+            .ear_right {
+                bottom: 60px;
+                right: 40px;
+            }
+
+            .ear_left {
+                left: 200px;
+                bottom: 120px;
+            }
+
+            .eye {
+                background-color: grey;
+                height: 30px;
+                width: 30px;
+                border-radius: 30px;
+                position: relative;
+            }
+
+            .eye_left {
+                left: 40px;
+                bottom: 60px;
+            }
+
+            .eye_right {
+                left: 130px;
+                bottom: 30px;
+            }
+        </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nvigation">
+            <ul class="nav-list">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Products</li>
+                <li class="nav-item">Contacts</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <div class="head">
+            <div class="ear ear_right"></div>
+            <div class="ear ear_left"></div>
+            <div class="eye eye_right"></div>
+            <div class="eye eye_left"></div>
+        </div>
+    </main>
+</body>
+
+</html>
