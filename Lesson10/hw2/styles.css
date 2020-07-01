@@ -9,6 +9,7 @@ h1 {
 }
 
 .article {
+    display: block;
     box-sizing: border-box;
     flex-wrap: wrap;
     flex-shrink: 1;;
