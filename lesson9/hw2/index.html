@@ -15,7 +15,9 @@
             .header {
                 background-color: darkturquoise;
                 height: 40px;
-                position: relative;
+                position: fixed;
+                width: 100%;
+                z-index: 2;
             }
 
             .nvigations {
@@ -41,9 +43,10 @@
                 height: 200px;
                 width: 200px;
                 background-color: aquamarine;
-                position: fixed;
+                position: absolute;
                 left: calc(100%/2 - 100px);
                 top: calc(100%/2 - 100px);
+                z-index: 1;
             }
 
             .ear {
