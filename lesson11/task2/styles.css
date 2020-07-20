@@ -1,17 +1,12 @@
-body {
+.articles {
     display: flex;
 }
 
-.articles > div {
-    flex-wrap: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
-    box-sizing: border-box;
-    height: 100px;
+.articles > div{
     width: 150px;
+    height: 100px;
     background-color: beige;
     margin: 16px;
-    display: inline-block;
 }
 
 .cropped {
@@ -20,10 +15,8 @@ body {
 
 .both-scrolls {
     overflow: scroll;
-    cursor: all-scroll;
 }
 
 .vertical-scroll {
     overflow: auto;
-    cursor: all-scroll;
 }
