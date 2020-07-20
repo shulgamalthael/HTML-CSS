@@ -3,15 +3,20 @@
 }
 
 .text {
-    border-bottom: 1px dotted black;
+    display: inline-block;
     margin: 16px;
-    width: 91px;
+    border-bottom: 1px dotted black;
 }
 
 .tooltip {
+    display: none;
     position: relative;
     padding: 8px;
-    background-color: gray;
     border-radius: 4px;
+    background-color: gray;
     bottom: -40px;
+}
+
+.text:hover .tooltip {
+    display: block;
 }
