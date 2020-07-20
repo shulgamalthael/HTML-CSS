@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.gallery {
+    display: inline-flex;
+    overflow: auto;
+}
+
+.thumb {
+    flex-wrap: nowrap;
+    margin: 8px;
+    cursor: all-scroll;
+}
