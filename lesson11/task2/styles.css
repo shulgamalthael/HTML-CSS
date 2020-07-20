@@ -3,6 +3,9 @@ body {
 }
 
 .articles > div {
+    flex-wrap: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
     box-sizing: border-box;
     height: 100px;
     width: 150px;
