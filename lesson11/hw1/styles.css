@@ -15,6 +15,7 @@
     border-radius: 4px;
     background-color: gray;
     bottom: -40px;
+    color: white;
 }
 
 .text:hover .tooltip {
