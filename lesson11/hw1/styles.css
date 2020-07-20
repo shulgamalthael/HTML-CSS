@@ -3,21 +3,21 @@
 }
 
 .text {
+    position: relative;
     display: inline-block;
     margin: 16px;
-    border-bottom: 1px dotted black;
 }
 
 .tooltip {
     display: none;
-    position: relative;
     padding: 8px;
     border-radius: 4px;
     background-color: gray;
-    bottom: -40px;
     color: white;
+    bottom: -40px;
 }
 
 .text:hover .tooltip {
     display: block;
+    position: absolute;
 }
