@@ -3,7 +3,7 @@
 }
 
 .mountains {
-    background-image: url(nature.jpeg);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
     background-position: center;
     width: 300px;
     height: 500px;
@@ -12,5 +12,10 @@
     font-size: 32px;
     font-weight: 700;
     padding-top: 32px;
-    color:white;
+}
+
+.text {
+background: linear-gradient(45deg, white, white);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
 }
