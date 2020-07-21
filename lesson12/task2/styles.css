@@ -16,6 +16,7 @@ div {
     height: 200px;
     background-color: coral;
     color: white;
+    text-align: center;
 }
 
 span {
