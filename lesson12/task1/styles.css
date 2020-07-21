@@ -23,6 +23,7 @@ p {
     font-size: 24px;
     text-decoration: underline;
     opacity: 0.8;
+    margin-right: 3px;
 }
 
 em {
