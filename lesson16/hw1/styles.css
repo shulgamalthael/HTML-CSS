@@ -6,10 +6,6 @@ body {
     background-color: bisque;
 }
 
-.page {
-    background-color: bisque;
-}
-
 .login-form {
     font-size: 16px;
     font-family: monospace;
@@ -24,7 +20,6 @@ body {
 
 .form-title {
     text-align: center;
-    margin: auto;
     text-transform: uppercase;
 }
 
