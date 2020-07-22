@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: monospace;
 }
 
 body {
@@ -13,8 +17,6 @@ body {
 }
 
 .login-form {
-    font-size: 16px;
-    font-family: monospace;
     background-color: aqua;
     position: absolute;
     top: calc(50% - 172.44px);
@@ -25,7 +27,9 @@ body {
 }
 
 .form-title {
+    padding: 16px;
     text-align: center;
+    margin: auto;
     text-transform: uppercase;
 }
 
