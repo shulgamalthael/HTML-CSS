@@ -26,7 +26,9 @@ html {
 }
 
 .form-title {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     text-transform: uppercase;
 }
 
