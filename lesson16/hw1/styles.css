@@ -18,7 +18,7 @@ html {
 .login-form {
     background-color: aqua;
     position: absolute;
-    top: calc(100%/2 - 188.44px);
+    top: calc(50% - 172.44px);
     left: calc(100%/2 - 150px);
     width: 300px;
     padding: 16px;
