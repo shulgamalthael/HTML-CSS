@@ -21,6 +21,7 @@
 .caption {
     height: 30px;
     text-align: center;
+    line-height: 30px;
 }
 
 .blur-filter {
@@ -31,12 +32,12 @@
     filter: invert(100%);
 }
 
-.caption-2 {
+.caption {
     text-align: center;
     margin: auto;
 }
 
-.caption-3 {
+.caption {
     text-align: center;
     margin: auto;
 }
