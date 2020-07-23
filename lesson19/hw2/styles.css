@@ -1,37 +1,27 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    width: 50vw;
-    height: 50vh;
-}
-
 html {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    color: white;
+    text-transform: uppercase;
 }
 
 .block {
-    display: block;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
     position: absolute;
     width: 250px;
     height: 100px;
-    border-radius: 10px;
     background-color: coral;
+    text-align: center;
     line-height: 100px;
-    left: calc(50% - 250px/2);
+    left: calc(50% - 125px);
+    border-radius: 10px;
     animation: move 2s ease;
     animation-fill-mode: forwards;
 }
 
 @keyframes move {
     from {
-        top: 0px;
+        top: -100px;
     }
 
     to {
