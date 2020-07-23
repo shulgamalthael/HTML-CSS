@@ -1,5 +1,6 @@
 table {
     width: 500px;
+    line-height: 40px;
 }
 
 table , td , th {
@@ -36,8 +37,4 @@ thead {
 
 tbody > tr:nth-child(odd) {
     background-color: #f2f2f2;
-}
-
-tr {
-    line-height: 40px;
 }
