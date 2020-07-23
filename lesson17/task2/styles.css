@@ -26,11 +26,11 @@ caption {
     margin-bottom: 8px;
 }
 
-tfoot , td {
+tfoot > tr {
     font-weight: 700;
 }
 
-thead , th {
+thead {
     background-color: aqua;
 }
 
