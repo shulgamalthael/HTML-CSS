@@ -1,7 +1,11 @@
 table {
     width: 500px;
-    margin: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 16px;
+}
+
+caption {
+    margin: 8px;
 }
 
 table , td , th {
@@ -10,16 +14,17 @@ table , td , th {
 }
 
 td , th {
-    padding: 2px;
+    padding: 4px;
+    text-align: right;
+}
+
+td , th {
+    padding: 4px;
     text-align: right;
     line-height: 40px;
 }
 
-caption {
-    margin: 8px;
-}
-
-thead {
+th {
     background-color: aqua;
 }
 
@@ -27,7 +32,7 @@ div {
     overflow-x: auto;
 }
 
-tfoot{
+tfoot {
     font-weight: 700;
 }
 
@@ -37,4 +42,5 @@ tbody > tr:nth-child(odd) {
 
 tbody > tr:hover {
     background-color: #aaa;
-    color: white;
+    color: #fff;
+}
