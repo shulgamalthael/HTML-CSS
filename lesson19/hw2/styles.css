@@ -3,6 +3,8 @@
 }
 
 body {
+    width: 50vw;
+    height: 50vh;
     display: flex;
 }
 
@@ -25,7 +27,7 @@ body {
     border-radius: 10px;
     background-color: coral;
     line-height: 100px;
-    left: calc(50vw - 125px);
+    left: calc(50vw - 250px/2);
     animation: move 2s ease;
     animation-fill-mode: forwards;
 }
