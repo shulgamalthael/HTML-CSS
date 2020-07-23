@@ -1,11 +1,7 @@
-.form {
-    margin: 32px;
-}
+form {  margin: 32px;}
 
-div {
-    margin-left: 4px;
-    margin-bottom: 8px;
-}
+.form-control,.languages {  margin: 8px;}
+
 
 textarea{
     color:#757575;
