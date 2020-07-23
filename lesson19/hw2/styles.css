@@ -14,8 +14,7 @@
 }
 
 .block {
-
-    
+    width: 50vw;
     display: flex;
     position: absolute;
     width: 250px;
