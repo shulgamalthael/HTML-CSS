@@ -1,10 +1,7 @@
-* {
-    box-sizing: border-box;
-}
-
 table {
     width: 500px;
     margin: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 table , td , th {
@@ -13,31 +10,31 @@ table , td , th {
 }
 
 td , th {
-    padding: 4px;
+    padding: 2px;
     text-align: right;
     line-height: 40px;
 }
 
-div {
-    overflow-x: auto;
-}
-
-tbody > tr:hover {
-    background-color: #aaa;
-    color: white;
-}
 caption {
     margin: 8px;
-}
-
-tfoot{
-    font-weight: 700;
 }
 
 thead {
     background-color: aqua;
 }
 
+div {
+    overflow-x: auto;
+}
+
+tfoot{
+    font-weight: 700;
+}
+
 tbody > tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
+
+tbody > tr:hover {
+    background-color: #aaa;
+    color: white;
