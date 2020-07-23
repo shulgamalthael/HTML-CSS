@@ -10,7 +10,6 @@ table , td , th {
 }
 
 td , th {
-    line-height: 40px;
     padding: 4px;
     text-align: right;
 }
@@ -37,4 +36,8 @@ thead , th {
 
 tbody > tr:nth-child(odd) {
     background-color: #f2f2f2;
+}
+
+tr {
+    line-height: 40px;
 }
