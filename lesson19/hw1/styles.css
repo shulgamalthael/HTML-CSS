@@ -12,7 +12,7 @@
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
-    animation: blinking 0.2s linear;
+    animation: blinking 0.2s , blinking 0.2s linear;
     animation-iteration-count: infinite;
 }
 
