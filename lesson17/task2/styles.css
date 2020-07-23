@@ -20,8 +20,8 @@ table , td , th {
 
 td , th {
     text-align: right;
-    padding: 4px;
     height: 40px;
+    padding-right: 4px;
 }
 
 th {
