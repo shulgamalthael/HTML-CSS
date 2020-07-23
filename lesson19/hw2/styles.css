@@ -2,27 +2,23 @@
     box-sizing: border-box;
 }
 
-.text {
-    width: 250px;
-    height: 100px;
+html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
 }
 
 .block {
-    width: 50vw;
-    display: flex;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
     position: absolute;
     width: 250px;
     height: 100px;
     border-radius: 10px;
     background-color: coral;
     line-height: 100px;
-    left: calc(50vw - 250px/2);
+    left: calc(50% - 250px/2);
     animation: move 2s ease;
     animation-fill-mode: forwards;
 }
