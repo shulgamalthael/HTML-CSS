@@ -1,6 +1,9 @@
+table {
+    width: 500px;
+}
+
 table , td , th {
     box-sizing: border-box;
-    width: 500px;
     border: 1px solid black;
     border-collapse: collapse;
     margin: 16px;
