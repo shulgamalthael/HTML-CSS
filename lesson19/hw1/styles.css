@@ -3,6 +3,8 @@
 }
 
 .spinner {
+    width: 50vw;
+    height: 50vh;
     position: absolute;
     top: calc(50% - 9px);
     left: calc(50% - 30.5px);
