@@ -18,10 +18,13 @@ table , td , th {
     border-collapse: collapse;
 }
 
+tr {
+    height: 40px;
+}
+
 td , th {
     text-align: right;
-    height: 40px;
-    padding: 0px 4px;
+    padding: 4px;
 }
 
 th {
