@@ -17,7 +17,7 @@ html {
     background-color: coral;
     text-align: center;
     line-height: 100px;
-    left: calc(50% - 125px);
+    left: calc(50% - 115px);
     border-radius: 10px;
     animation: move 2s ease;
     animation-fill-mode: forwards;
