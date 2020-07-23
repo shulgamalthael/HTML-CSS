@@ -25,7 +25,7 @@ body {
     border-radius: 10px;
     background-color: coral;
     line-height: 100px;
-    left: calc(50% - 125px);
+    left: calc(50vw - 125px);
     animation: move 2s ease;
     animation-fill-mode: forwards;
 }
