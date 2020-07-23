@@ -7,7 +7,7 @@ button {
     color: white;
     border-radius: 4px;
     text-transform: uppercase;
-    font-size: 'Courier New' , Courier , monospace;
+    font-family: "Courier New", Courier , monospace;
     border: none;
     outline: none;
     cursor: pointer;
