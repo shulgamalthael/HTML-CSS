@@ -1,18 +1,17 @@
 table {
     width: 500px;
-    line-height: 40px;
+    margin: 16px;
 }
 
 table , td , th {
-    box-sizing: border-box;
     border: 1px solid black;
     border-collapse: collapse;
-    margin: 16px;
 }
 
 td , th {
     padding: 4px;
     text-align: right;
+    line-height: 40px;
 }
 
 div {
@@ -27,7 +26,7 @@ caption {
     margin-bottom: 8px;
 }
 
-tfoot > tr {
+tfoot{
     font-weight: 700;
 }
 
