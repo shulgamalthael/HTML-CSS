@@ -3,11 +3,31 @@
 }
 
 @keyframes spinning {
-    from {
+    0% {
         transform: rotate(0deg);
+        opacity: 1;
+        border-top: 4px groove;
+        border-bottom: 4px groove;
+        border-left: 4px dotted;
+        border-right: 4px dotted;
     }
-    to {
+    50% {
+        transform: rotate(180deg);
+        opacity: 0;
+        transition-timing-function: 3s ease;
+        border-top: 4px groove;
+        border-right: 4px dotted;
+        border-bottom: 4px groove;
+        border-left: 4px dotted;
+    }
+
+    100% {
         transform: rotate(360deg);
+        opacity: 1 0.2s linear;
+        border-right: 4px dotted;
+        border-top: 4px dgroove;
+        border-bottom: 4px groove;
+        border-left: 4px dotted; 
     }
 }
 
@@ -28,7 +48,7 @@
     height: 50px;
     border-radius: 50%;
     position: relative;
-    animation: spinning 2s linear infinite;
+    animation: spinning 1s linear infinite;
     border: 4px solid lightgrey;
     border-top: 4px solid black;
     margin-bottom: 8px;
