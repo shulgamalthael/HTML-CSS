@@ -7,16 +7,16 @@ html {
 }
 
 .font-in-em {
-    scale: 1.5em;
+    font-size: 1.5em;
 }
 .font-in-vw {
-    width: 5vw;
+    font-size: 5vw;
 }
 
 .font-in-percents {
-    width: 150%;
+    font-size: 150%;
 }
 
 .font-in-rem {
-    scale: 1.5rem;
+    font-size: 1.5rem;
 }
