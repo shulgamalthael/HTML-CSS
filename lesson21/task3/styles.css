@@ -1,0 +1,22 @@
+html {
+    font-size: 18px;
+}
+
+.font-in-px {
+    font-size: 27px;
+}
+
+.font-in-em {
+    scale: 1.5em;
+}
+.font-in-vw {
+    width: 5vw;
+}
+
+.font-in-percents {
+    width: 150%;
+}
+
+.font-in-rem {
+    scale: 1.5rem;
+}
