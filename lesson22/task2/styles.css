@@ -1,31 +1,31 @@
 .navigation {
-    background-color: #ff7f50;
-    min-height: 200px;
     display: flex;
     flex-grow: 1;
+    min-height: 200px;
+    background-color: #ff7f50;
 }
 
 .products-list {
-    background-color: #006400;
-    min-height: 200px;
     display: flex;
     flex-grow: 1;
+    min-height: 200px;
+    background-color: #006400;
 }
 
 .news {
-    background-color: #0ff;
-    min-height: 200px;
     display: flex;
     flex-grow: 1;
+    min-height: 200px;
+    background-color: #0ff;
 }
 
 span {
-    background-color: #faebd7;
+    margin: auto;
+    padding: 8px;
+    border-radius: 4px;
     text-transform: lowercase;
     font-family: Verdana;
-    padding: 8px;
-    margin: auto;
-    border-radius: 4px;
+    background-color: #faebd7;
 }
 
 @media screen and (min-width: 600px) {
