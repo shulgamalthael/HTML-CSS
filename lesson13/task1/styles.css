@@ -15,7 +15,7 @@
 }
 
 .text {
-background: linear-gradient(45deg, white, white);
+background: linear-gradient(45deg, red, orange);
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
