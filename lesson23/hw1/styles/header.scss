@@ -8,32 +8,33 @@ nav {
 }
 
 .menu {
-    height: 100%;
-    margin: 0 0 0 3em;
+    list-style-type: none;
     display: flex;
-    color: #fff;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0 0 0 3em;
     text-transform: uppercase;
-
     &__item {
         display: flex;
-        list-style-type: none;
-        padding: 0 8px;
-        cursor: pointer;
         align-items: center;
-
+        height: 100%;
+        color: #fff;
+        padding-left: 8px;
+        padding-right: 8px;
+        cursor: pointer;
         &:hover {
             background-color: #9acd32;
         }
-        
-        &-text {
-            align-items: center;
-        }
-        
         &_active {
-            color: yellow;
+            position: relative;
+            color: #ff0;
             &:hover {
                 .submenu {
-                    display: block;
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 3em;
                 }
             }
         }
@@ -41,23 +42,21 @@ nav {
 }
 
 .submenu {
-    position: absolute;
-    top: 3em;
-    margin: 0px;
-    padding: 0px;
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
     background-color: #ff7f50;
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     color: #fff;
     min-width: 120px;
     z-index: 1;
-    display: none;
-
     &__item {
-        list-style-type: none;
-        padding: 0 8px;
-        
+        margin-left: 8px;
+        margin-right: 8px;
+        cursor: pointer;
         &:hover {
-            color: black;
+            color: #000;
         }
     }
 }
