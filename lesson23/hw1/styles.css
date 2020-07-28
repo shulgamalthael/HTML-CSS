@@ -5,14 +5,13 @@
 
 nav {
   height: 100%;
+  margin-left: 3em;
 }
 
 .menu {
   height: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 0 0 3em;
   display: flex;
-  margin-left: 3em;
   color: #fff;
   text-transform: uppercase;
 }
