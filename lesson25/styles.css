@@ -69,40 +69,39 @@
   display: flex;
 }
 .price-card__title {
-  flex-direction: column;
   height: 64px;
+  font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
   text-align: center;
-  font-style: normal;
   display: flex;
+  flex-direction: column;
 }
 .price-card__title-s {
   font-size: 20px;
-  line-height: 24px;
   font-weight: 300;
+  line-height: 24px;
 }
 .price-card__price {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  text-align: center;
+  width: 100%;
   height: 105px;
-  width: 380px;
-  font-style: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 105px;
   font-weight: bold;
   font-size: 55px;
-  line-height: 67px;
 }
 .price-card__description {
-  margin: 40px 26px;
+  width: 327px;
+  height: 36px;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
+  margin: 40px 26px;
 }
 .price-card__options-list {
   width: 100%;
@@ -111,11 +110,11 @@
   list-style-type: none;
 }
 .price-card__options-list__contain {
-  height: 50px;
   font-size: 15px;
-  width: 100%;
   display: flex;
   align-items: center;
+  height: 50px;
+  width: 100%;
 }
 .price-card__options-list__contain:nth-child(odd) {
   background-color: #2A3438;
