@@ -19,7 +19,7 @@ nav {
 .menu__item {
   display: flex;
   list-style-type: none;
-  margin: 0 8px;
+  padding: 0 8px;
   cursor: pointer;
   align-items: center;
 }
