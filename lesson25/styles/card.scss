@@ -78,55 +78,60 @@
                 }
             }
         }
+
         &__head {
             display: flex;
         }
         &__title {
+            flex-direction: column;
             height: 64px;
-            font-style: normal;
             font-weight: 700;
             font-size: 35px;
             line-height: 43px;
             text-align: center;
+            font-style: normal;
             display: flex;
-            flex-direction: column;
             &-s {
                 font-size: 20px;
-                font-weight: 300;
                 line-height: 24px;
+                font-weight: 300;
             }
         }
+
         &__price {
-            text-align: center;
-            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             height: 105px;
-            margin: 0;
-            padding: 0;
-            line-height: 105px;
+            width: 380px;
+            font-style: normal;
             font-weight: bold;
             font-size: 55px;
+            line-height: 67px;
         }
+
         &__description {
-            width: 327px;
-            height: 36px;
+            margin: 40px 26px;
             font-style: normal;
             font-weight: 300;
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            margin: 40px 26px;
         }
+
         &__options-list {
             width: 100%;
             margin: 0;
             padding: 0;
             list-style-type: none;
             &__contain {
+                height: 50px;
                 font-size: 15px;
+                width: 100%;
                 display: flex;
                 align-items: center;
-                height: 50px;
-                width: 100%;
                 &:nth-child(odd) {
                     background-color: #2A3438;
                 }
