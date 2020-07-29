@@ -1,4 +1,5 @@
 .price {
+
     &__tables {
         display: flex;
         justify-content: center;
@@ -8,6 +9,7 @@
         height: 1000px;
         background: #141B1C;
     }
+
     &-card {
         display: flex;
         flex: 0 0 auto;
@@ -18,28 +20,36 @@
         background-color: #334247;
         margin: 9px;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+        
         &:nth-child(1) {
             .price-card {
+
                 &__price,
                 &__order-btn {
                     background-color: #5BB189;
                 }
+
                 &__title {
                     width: 100px;
                     margin: 33px 140px;
                 }
             }
         }
+        
         &:nth-child(2) {
             position: relative;
+            
             .price-card {
+               
                 &__price,
                 &__order-btn {
                     background-color: #3A6BA5;
                 }
+               
                 &__title {
                     width: 163px;
                     margin: 33px 108px;
+                   
                     &-badge {
                         display: flex;
                         position: absolute;
@@ -47,6 +57,7 @@
                         height: 104px;
                         transform: translate(276px);
                         overflow: hidden;
+                       
                         &__stripe {
                             display: flex;
                             justify-content: center;
@@ -68,19 +79,23 @@
         }
         &:nth-child(3) {
             .price-card {
+                
                 &__price,
                 &__order-btn {
                     background-color: #EC632A;
                 }
+                
                 &__title {
                     width: 176px;
                     margin: 36px 102px 33px 102px;
                 }
             }
         }
+        
         &__head {
             display: flex;
         }
+        
         &__title {
             height: 64px;
             font-style: normal;
@@ -90,12 +105,15 @@
             text-align: center;
             display: flex;
             flex-direction: column;
+           
             &-s {
                 font-size: 20px;
                 font-weight: 300;
                 line-height: 24px;
             }
+
         }
+       
         &__price {
             text-align: center;
             width: 100%;
@@ -106,6 +124,7 @@
             font-weight: bold;
             font-size: 55px;
         }
+
         &__description {
             width: 327px;
             height: 36px;
@@ -116,25 +135,30 @@
             text-align: center;
             margin: 40px 26px;
         }
+        
         &__options-list {
             width: 100%;
             margin: 0;
             padding: 0;
             list-style-type: none;
+            
             &__contain {
                 font-size: 15px;
                 display: flex;
                 align-items: center;
                 height: 50px;
                 width: 100%;
+               
                 &:nth-child(odd) {
                     background-color: #2A3438;
                 }
+
                 &-checkmark {
                     width: 15px;
                     height: 13px;
                     margin: auto 22px;
                 }
+
                 &__description {
                     margin: 16px 22px 16px 0;
                     display: block;
@@ -144,6 +168,7 @@
                 }
             }
         }
+       
         &__order-btn {
             color: #fff;
             height: 40px;
