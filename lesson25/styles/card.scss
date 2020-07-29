@@ -53,9 +53,12 @@
                     &-badge {
                         display: flex;
                         position: absolute;
+                        left: 69.35%;
+                        right: 0%;
+                        top: 0%;
+                        bottom: 84.39%;
                         width: 104px;
                         height: 104px;
-                        transform: translate(276px);
                         overflow: hidden;
                        
                         &__stripe {
@@ -63,15 +66,20 @@
                             justify-content: center;
                             align-items: center;
                             position: absolute;
+                            left: 0%;
+                            right: 79.5%;
+                            top: 14.71%;
+                            bottom: -34.29%;
+
+                            background: #DC3F45;
+                            transform: rotate(-45deg);
                             width: 147px;
                             height: 25px;
-                            background: #DC3F45;
                             font-weight: 700;
                             font-size: 14px;
                             line-height: 17px;
                             color: #FFFFFF;
                             border: none;
-                            transform: translate(-10px, 28px) rotate(45deg);
                         }
                     }
                 }
